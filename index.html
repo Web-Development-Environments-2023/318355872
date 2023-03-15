@@ -1,177 +1,113 @@
 <!DOCTYPE html>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik&family=Rubik+Dirt&family=Secular+One&family=Varela+Round&display=swap" rel="stylesheet">
+
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="style.css" />
+ <meta charset="UTF-8">
+ <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
-<div id="menu">
-<li><a href="#about">About Me</a></li>
-<li><a href="#photos">My Photos</a></li>
-<li><a href="#playlist">My Playlist</a></li>
-<li><a href="#like">Like</a></li>
-<li><a href="#qrcoder">QR code</a></li>
-<li><a href="#spa">Q&A</a></li>
-<li><a href="#contact">Contact Me</a></li>
+<div id="menu" >
+<li><a href="#contact">יצירת קשר איתי</a></li>
+ <li><a href="#spa">שאלות ותשובות</a></li>
+ <li><a href="#qrcoder">QR קוד</a></li>
+ <li><a href="#like">לייק</a></li>
+ <li><a href="#playlist">רשימת ההשמעה שלי</a></li>
+ <li><a href="#photos">תמונות שלי</a></li>
+ <li><a href="#about" >קצת על עצמי</a></li>
+
 </div>
-		  
-<section id="about" class="section">
+
+<section id="about" class="section" >
 <br/>
 <br/>
 <br/>
 <br/>
+<h2>קצת על עצמי</h2>
+ <blockquote>
+  קוראים לי שמשון ואני בן 75 נשוי לכוכבה ואני חיי בכוכב אחר בשנת 2150 של כדור הארץ. אני עובד כחוקר במעבדה ואוהב לחקור ולגלות את היקום.
+  הדבר הכי חשוב לי בחיים הם הנכדים שלי , אני אוהב להיות בסביבתם ולשמוע אותם משחקים ולשחק איתם ביחד.
+  אחד האנשים שהשפיעו עלי מאוד בצעירותי הוא אילון מסק , איש שהוא יותר מחלוץ בתחום החלל.
+  בצעירותי חייתי בכדור הארץ , למדתי ביוטכנולוגיה באוניברסיטת בן גוריון ומשם התפתחתי להיות עוזר מעבדה במחלקה לביולוגיה.
+  כאשר גילו את הכוכב החדש שאני חיי בו היום חיפשו מתנדבים לנסוע לחקור את הכוכב החדש ,אני ואשתי אהבנו את הרעיון והחלטנו לצאת למסע בכוכב אחר
+
+ </blockquote>
+<br/>
+</section>
+
+<section id="photos" class="section" >
 <br/>
 <br/>
 <br/>
 <br/>
+ <h2>תמונות שלי</h2>
+ <div class="gallery">
+  <img src="img1.png" alt="Image 1">
+  <img src="img2.png" alt="Image 2">
+  <img src="img3.png" alt="Image 3">
+  <img src="img4.png" alt="Image 4">
+ </div>
+ <br/>
+</section>
+
+<section id="playlist" class="section" >
+ <br/>
+ <br/>
+ <br/>
+ <br/>
+ <h2>רשימת ההשמעה שלי</h2>
+ <iframe width="784" height="441" src="https://www.youtube.com/embed/VPRjCeoBqrI"
+         title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+          clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+ <br/>
+</section>
+
+<section id="like" class="section" >
+ <br/>
+ <br/>
+ <br/>
+ <br/>
+ <h2>תעשו לי לייק</h2>
+ <br/>
+</section>
+
+<section id="qrcoder" class="section" >
+ <br/>
+ <br/>
+ <br/>
+ <br/>
+ <h2>סרקו את הקוד שלי</h2>
+ <br/>
+</section>
+
+<section id="spa" class="section" >
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-about me
+ <h2>שאלות & תשובות</h2>
 <br/>
 <br/>
 <br/>
 </section>
 
-<section id="photos" class="section">
+<section id="contact" class="section" >
 <br/>
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my photos
-<br/>
-<br/>
-<br/>
-</section>
+ <h2>צרו איתי קשר</h2>
+ <form>
+  <label for="name">:שם</label>
+  <input type="text" id="name" name="name" required>
 
-<section id="playlist" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my playlist
-<br/>
-<br/>
-<br/>
-</section>
+  <label for="email">:מייל</label>
+  <input type="email" id="email" name="email" required>
 
-<section id="like" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-give me a like
-<br/>
-<br/>
-<br/>
-</section>
+  <label for="message">:הודעה</label>
+  <input id="message" name="message"  required>
 
-<section id="qrcoder" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-scan my code
-<br/>
-<br/>
-<br/>
-</section>
-
-<section id="spa" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-ans
-<br/>
-<br/>
-<br/>
-</section>
-
-<section id="contact" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-contact me
-<br/>
-<br/>
+  <button type="submit">שלח</button>
+ </form>
 <br/>
 </section>
 
@@ -180,7 +116,7 @@ contact me
 $(function(){
   $("#nav a").click(function(e){
     e.preventDefault();
-    $('html,body').scrollTo(this.hash,this.hash); 
+    $('html,body').scrollTo(this.hash,this.hash);
   });
 });
 </script>
