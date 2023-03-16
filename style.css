@@ -41,6 +41,7 @@ h1, h2, h3, h4, h5, h6 {
 blockquote{
 	font-family: 'Varela Round', sans-serif;
 	font-size: 25px;
+	direction: rtl;
 	text-align: right;
 	max-width: 900px;
 	overflow: hidden;
@@ -48,6 +49,27 @@ blockquote{
 	margin: auto;
 
 }
+
+#more{
+	font-family: 'Varela Round', sans-serif;
+	font-size: 25px;
+	direction: rtl;
+	text-align: right;
+	max-width: 900px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin-top: 20px;
+
+
+}
+#title\ web1 , #title\ web2{
+	text-align: center;
+	font-size: 35px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	text-shadow: 0 0 5px #ffffff, 0 0 5px #fff, 0 0 5px #ffffff, 0 0 5px #ffffff;
+}
+
 section{
 	background-color: rgba(167, 239, 233, 0.75);
 }
@@ -86,9 +108,9 @@ label, input {
 	height: 30px;
 }
 
-button {
+#submit {
 	margin-top: 10px;
-	width: 70px;
+	width: auto;
 	height: 40px;
 	border: none;
 	outline: none;
@@ -97,6 +119,22 @@ button {
 	font-size: 22px;
 	border-radius: 40px;
 	text-align: center;
+	box-shadow: 0 5px 20px -5px rgb(3, 3, 3);
+	position: relative;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+#add-emoji{
+	width: auto;
+	height: 40px;
+	border: none;
+	outline: none;
+	font-size: 22px;
+	direction: rtl;
+	background: #ffffff;
+	color: #030303;
+	border-radius: 40px;
 	box-shadow: 0 5px 20px -5px rgb(3, 3, 3);
 	position: relative;
 	overflow: hidden;

@@ -1,12 +1,15 @@
 <!DOCTYPE html>
+<html>
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Rubik&family=Rubik+Dirt&family=Secular+One&family=Varela+Round&display=swap" rel="stylesheet">
 
-<html>
 <head>
  <meta charset="UTF-8">
  <link rel="stylesheet" type="text/css" href="style.css" />
+ <title>Samson-Story</title>
+ <link rel="icon" type="image/x-icon" href="resources/images/icon.png">
 </head>
 <body>
 <div id="menu" >
@@ -35,8 +38,9 @@
   הדבר הכי חשוב לי בחיים הם הנכדים שלי , אני אוהב להיות בסביבתם ולשמוע אותם משחקים ולשחק איתם ביחד.
   אחד האנשים שהשפיעו עלי מאוד בצעירותי הוא אילון מסק , איש שהוא יותר מחלוץ בתחום החלל.
   בצעירותי חייתי בכדור הארץ , למדתי ביוטכנולוגיה באוניברסיטת בן גוריון ומשם התפתחתי להיות עוזר מעבדה במחלקה לביולוגיה.
-  כאשר גילו את הכוכב החדש שאני חיי בו היום חיפשו מתנדבים לנסוע לחקור את הכוכב החדש ,אני ואשתי אהבנו את הרעיון והחלטנו לצאת למסע בכוכב אחר
-
+  כאשר גילו את הכוכב החדש שאני חיי בו היום חיפשו מתנדבים לנסוע לחקור את הכוכב החדש ,אני ואשתי אהבנו את הרעיון והחלטנו לצאת למסע בכוכב אחר.
+ </blockquote>
+ <blockquote id="more" >  אם מעניין אתכם הסיפור שלנו והייתם רוצים לשמוע עוד אל תתביישו להשאיר הודעה ב-"יצירת קשר איתי" נהייה יותר משמחים לספר עוד עודותינו ולהכיר אתכם &#128512.
  </blockquote>
 <br/>
 </section>
@@ -63,7 +67,7 @@
  <br/>
  <h2>ה-שיר שלי</h2>
  <iframe width="784" height="441" src="https://www.youtube.com/embed/VPRjCeoBqrI"
-         title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+         title="YouTube video player" allow="accelerometer; autoplay;
           clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
  <br/>
 </section>
@@ -92,16 +96,20 @@
 
 <section id="spa" class="section" >
 <br/>
+<br/>
+<br/>
  <h2>שאלות & תשובות</h2>
-<br/>
-<br/>
-<br/>
+ <blockquote id="title web1">הבדלים עקרים בין כל סוגי ה-web:</blockquote>
+<blockquote id="web1">web 1 - רק לצורך קריאה לא ניתן לכתוב , להגיב על בלוגים , פוסטים </blockquote>
+<blockquote id="web2">web 2 - מאפשר כתיבה וקריאה , מאפשר לאתרים להיות יותר דינאמים ושם דגש על חויות משתמש </blockquote>
+<blockquote id="web3">web 3 - הדור הבא של האינטרנט שם דגש יותר על למידת מכונה הבנה של התוכן של האתר ,יעילות וצרכי משתמש</blockquote>
+<blockquote id="title web2">תרחיש שימוש:</blockquote>
+<blockquote id="use_case">תרחיש שימוש עבור "קניית רכב באינטרנט" </blockquote>
+ <blockquote id="web11">web 1 - ניכנס לאתר קבוע שנוכל לקרוא מידע על הרכב אבל כדי לקנות אותו נצטרך לצור קשר עם המוכר דרך טלפון או מייל</blockquote>
+ <blockquote id="web22">web 2 - נבקר באתר דינמי שבו יכולים להוסיף מכוניות ולהוריד מכוניות נוכל לצפות בתמונות ואף סרטון של הרכב ,אפשר להתחשב ברכישות עבר עבור הצעה של רכב, ויש את האפשרות להתמקח באתר או אפילו לרכוש באמצעות מכירה פומבית באינטרנט </blockquote>
+ <blockquote id="web33">web 3 - כדי לקנות רכב נכתוב את כל הדרישות שלנו עבור הרכב , כמו רכב משפחתי עם 5 מקומות ישיבה, עם מערכות בטיחות ,בצבע שחור , בעלות של סכום מסויים , והבינה מלאכותית בשימוש בהיסטורית החיפוש והידע שלה על מכונית עבר שהיו ברשותינו ותוכל להציע לנו את האפשרויות הטובות ביותר עבורינו.</blockquote>
 </section>
-
 <section id="contact" class="section" >
-<br/>
-<br/>
-<br/>
 <br/>
  <h2>צרו איתי קשר</h2>
  <form>
@@ -114,7 +122,9 @@
   <label for="message">הודעה:</label>
   <input id="message" name="message"  required>
 
-  <button type="submit">שלח</button>
+  <button id="add-emoji">😀 שלח עם אמוגי</button>
+
+  <button id="submit" type="submit"> שלח ללא אמוגי</button>
  </form>
 <br/>
 </section>
@@ -131,7 +141,25 @@ $(function(){
 <script type="text/javascript">
  $(document).scroll(function() {
     $('#menu').toggle($(this).scrollTop()>1000)
- });​
+ });
  </script>
+
+<script type="text/javascript">
+ // Get the message input and the add-emoji button
+ const messageInput = document.getElementById('message');
+ const addEmojiButton = document.getElementById('add-emoji');
+ addEmojiButton.addEventListener('click', () => {
+  messageInput.value += "\uD83D\uDE00";
+  alert( "ההודעה: "+ messageInput.value + " נשלחה בהצלחה! ");});
+
+
+</script>
+
+<script>
+ const sendButton = document.getElementById('submit');
+ sendButton.addEventListener('click', () => {
+  alert( "ההודעה: "+ messageInput.value + " נשלחה בהצלחה! ");});
+</script>
+
 </body>
 </html>
