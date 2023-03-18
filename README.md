@@ -5,10 +5,11 @@
 שלום לכולם הגעתם לאתר שמספר את סיפורו של שמשון , ואת המעבר שלו לכוכב אחר .
 </div>
 <div dir="rtl" >
-<img src="resources/images/icon.png">
+<img src="resources/images/icon.png" alt="Samson">
 </div>
 <div dir="rtl" >
-למעבר לאתר של שמשון תלחצו על הקישור - <a herf="https://web-development-environments-2023.github.io/assignment1-318355872/#contact" target="_blank"> Samson story </a>
+[Samson story](https://web-development-environments-2023.github.io/assignment1-318355872/#contact) - למעבר לאתר של שמשון תלחצו על הקישור -
+
 </div>
 <div dir="rtl" >
 שם מגיש : איתמר זפרן , ת.ז : 318355872
