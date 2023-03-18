@@ -8,9 +8,9 @@
 <img src="resources/images/icon.png" alt="Samson">
 </div>
 <div dir="rtl" >
-[Samson story](https://web-development-environments-2023.github.io/assignment1-318355872/#contact) - למעבר לאתר של שמשון תלחצו על הקישור -
-
+  למעבר לאתר של שמשון תלחצו על הקישור -
 </div>
+[Samson story](https://web-development-environments-2023.github.io/assignment1-318355872)
 <div dir="rtl" >
 שם מגיש : איתמר זפרן , ת.ז : 318355872
 </div>
