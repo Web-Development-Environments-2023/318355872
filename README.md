@@ -13,7 +13,7 @@
 <div dir="rtl" >
   למעבר לאתר של שמשון תלחצו על הקישור -
   
-[הסיפור של שמשון](https://web-development-environments-2023.github.io/assignment1-318355872/)
+[הסיפור של שמשון](https://web-development-environments-2023.github.io/318355872/)
 </div>
 
 
